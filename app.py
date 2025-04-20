@@ -12,7 +12,7 @@ from sklearn.datasets import make_blobs
 
 #load model
 with open('kmeans_model.pkl', 'rb') as f:
-    loaded_model = pickle.loads(f)
+    loaded_model = pickle.load(f)
     
 #set the title
 st.title("K-Means Clustering Visualizer by Bunthita Chitsomboon")
